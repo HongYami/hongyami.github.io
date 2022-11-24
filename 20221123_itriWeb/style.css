@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    list-style: none;
+}
+h1 {
+    margin: 0;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-end {
+    justify-content: flex-end;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-end {
+    align-content: flex-end;
+}
+.margin-40 {
+    margin: 40px;
+}
+.margin-x-65 {
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.padding-x-8 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.text-28 {
+    font-size: 28px;
+}
+.text-primary{
+    color: #016364;
+}
+.material-symbols-outlined {
+    color: #016364;
+    font-size: 30px;
+}
+.underline {
+    border-bottom: 4px solid transparent;
+    transition: border 0.3s;
+}
+.underline:hover {
+    border-bottom: 4px solid #016364;
+}
+.cursor-pointer {
+    cursor: pointer;
+}/*鼠標手指符號*/
+.w-100 {
+    width:100%;
+}
+.mb-52 {
+    margin-bottom: 52px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.container {
+    width: 1600px;
+}
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+.w-4\/12 {
+    width: 33.333333%;
+}
+.px-16 {
+    padding: 0 16px;
+}
+.pb-16 {
+    padding-bottom: 16px;
+}
+.text-18 {
+    font-size: 18px;
+}
+.text-20 {
+    font-size: 20px;
+}
+.card-wrapper {
+    border: 1px solid rgb(170, 170, 170);
+    /* box-shadow:5px 5px 8px transparent; */
+    transform: scale(1);
+    transition: all .3s;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card-wrapper:hover {
+    box-shadow:5px 5px 8px rgba(0,0,0,0.5);
+    transform: scale(1.01);
+}
+.mx-16 {
+    margin: 0 16px;
+}
+.pl-16 {
+    padding-left: 16px;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.p-16 {
+    padding: 16px;
+}
+.text-wrapper {
+    white-space:normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 55px;
+}
