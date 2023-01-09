@@ -173,6 +173,7 @@ margin-right: 16px;
 .card-icon{
     border-radius: 99px;
     margin-right: 0;
+    height: 24px;
 }
 .card-icon-green{
     background-color: #198754;
